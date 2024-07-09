@@ -1,0 +1,33 @@
+model_path: 
+   base_model: ../../model/LLaMAX2-7B-Alpaca/
+   lora: null
+   torch_dtype: bf16
+   llama_type: llama2
+dataset:
+   loader: flores101
+   path: ../../data//flores101_dataset/devtest/
+   input_file: eng.devtest
+   inst_file: ./prepare/instruct_inf.txt
+   lang_instruction: ./prepare/language_name_code_pair.xlsx
+   input_extra_file: null
+   lang_pair: en-zh
+   inst_placeholder: null
+   inst_fix: true
+   inst_index: 0
+   labels: null
+   inst_with_input: true 
+   input_size: -1
+   use_match: false
+
+generat:
+    beam_size: 4
+    temperature: 0.1
+    batch_size: 8
+    template: prompt_input # 
+    search: beam 
+    do_sample: false
+    
+output:
+    subpath: ""
+    output_file_prefix: generation_results
+ 
