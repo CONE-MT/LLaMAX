@@ -60,13 +60,10 @@ Commonsense Reasoning, Natural Language Inference and Math Reasoning.
 ## Citation
 If our model helps your work, please cite this paper:
 ```
-@misc{lu2024llamaxscalinglinguistichorizons,
-      title={LLaMAX: Scaling Linguistic Horizons of LLM by Enhancing Translation Capabilities Beyond 100 Languages}, 
-      author={Yinquan Lu and Wenhao Zhu and Lei Li and Yu Qiao and Fei Yuan},
-      year={2024},
-      eprint={2407.05975},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2407.05975}, 
+@article{lu2024llamax,
+  title={LLaMAX: Scaling Linguistic Horizons of LLM by Enhancing Translation Capabilities Beyond 100 Languages},
+  author={Lu, Yinquan and Zhu, Wenhao and Li, Lei and Qiao, Yu and Yuan, Fei},
+  journal={arXiv preprint arXiv:2407.05975},
+  year={2024}
 }
 ```
