@@ -7,6 +7,10 @@ continues training on over 100 languages. Without losing its generalization abil
 significantly exceeds that of existing LLMs. Only simple supervised fine-tuning(SFT) is needed to meet multilingual requirements in downstream tasks.
 
 ## News
+**📢[Jul 26, 2024] LLaMAX3.1-8B is launched!**
+
+**🔥[Jul 26, 2024] Welcome to try the [online translation demo](https://huggingface.co/spaces/vilarin/LLaMAX3-Translator) based on LLaMAX on Hugging Face. Thanks to [Vila](https://twitter.com/anniodance/status/1816393184336806311?s=61&t=Ildb-_VXuT69jEQUnzS7YA) for creating this awesome demo!**
+
 **🔥[Jul 6, 2024] Released the multilingual math reasoning model [LLaMAX2-7B-MetaMath](https://huggingface.co/LLaMAX/LLaMAX2-7B-MetaMath), only trained on English MGSM dataset**
 
 **🔥[Jul 6, 2024] Released the multilingual natural language inference model [LLaMAX2-7B-XNLI](https://huggingface.co/LLaMAX/LLaMAX2-7B-XNLI), only trained on English MultiNLI dataset**
