@@ -64,10 +64,24 @@ Commonsense Reasoning, Natural Language Inference and Math Reasoning.
 ## Citation
 If our model helps your work, please cite this paper:
 ```
-@article{lu2024llamax,
-  title={LLaMAX: Scaling Linguistic Horizons of LLM by Enhancing Translation Capabilities Beyond 100 Languages},
-  author={Lu, Yinquan and Zhu, Wenhao and Li, Lei and Qiao, Yu and Yuan, Fei},
-  journal={arXiv preprint arXiv:2407.05975},
-  year={2024}
+@inproceedings{lu-etal-2024-llamax,
+    title = "{LL}a{MAX}: Scaling Linguistic Horizons of {LLM} by Enhancing Translation Capabilities Beyond 100 Languages",
+    author = "Lu, Yinquan  and
+      Zhu, Wenhao  and
+      Li, Lei  and
+      Qiao, Yu  and
+      Yuan, Fei",
+    editor = "Al-Onaizan, Yaser  and
+      Bansal, Mohit  and
+      Chen, Yun-Nung",
+    booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2024",
+    month = nov,
+    year = "2024",
+    address = "Miami, Florida, USA",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.findings-emnlp.631",
+    doi = "10.18653/v1/2024.findings-emnlp.631",
+    pages = "10748--10772",
+    abstract = "Large Language Models (LLMs) demonstrate remarkable translation capabilities in high-resource language tasks, yet their performance in low-resource languages is hindered by insufficient multilingual data during pre-training. To address this, we conduct extensive multilingual continual pre-training on the LLaMA series models, enabling translation support across more than 100 languages. Through a comprehensive analysis of training strategies, such as vocabulary expansion and data augmentation, we develop LLaMAX. Remarkably, without sacrificing its generalization ability, LLaMAX achieves significantly higher translation performance compared to existing open-source LLMs (by more than 10 spBLEU points) and performs on-par with specialized translation model (M2M-100-12B) on the Flores-101 benchmark. Extensive experiments indicate that LLaMAX can serve as a robust multilingual foundation model. The code and the models are publicly available.",
 }
 ```
